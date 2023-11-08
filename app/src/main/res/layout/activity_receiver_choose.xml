@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/receiver"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bookOrderBtn"
+        android:layout_width="291dp"
+        android:layout_height="60dp"
+        android:layout_margin="40dp"
+        android:text="Book Order"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/material_dynamic_neutral100" />
+
+    <Button
+        android:id="@+id/showBookOrderBtn"
+        android:layout_width="291dp"
+        android:layout_height="60dp"
+        android:text="Show Booked Order"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/colorwhite" />
+</LinearLayout>
